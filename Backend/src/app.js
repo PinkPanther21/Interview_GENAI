@@ -12,4 +12,8 @@ app.use(cors({
   credentials: true
 })) 
 app.use(express.json())
-app.use(cookieParse
+app.use(cookieParser())
+app.use('/api/auth', authRouter)
+app.use('/api/interview', interviewRouter)
+
+module.exports = app

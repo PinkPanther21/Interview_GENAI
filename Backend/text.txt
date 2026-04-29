@@ -1,0 +1,112 @@
+{
+  matchScore: 75,
+  technicalQuestions: [
+    {
+      question: 'Explain the concept of Virtual DOM in React and how it improves performance.',
+      intention: "To assess the candidate's understanding of React's core mechanisms and performance optimizations beyond just using the library.",
+      answer: 'The candidate should explain that the Virtual DOM is a lightweight copy of the actual DOM, and React uses it to efficiently update the UI. They should cover the reconciliation process (diffing algorithm) and how it minimizes direct DOM manipulations, leading to better performance. Mentioning `key` props and their importance would be a plus.'
+    },
+    {
+      question: 'Describe the differences between `useState` and `useEffect` hooks, and provide a scenario where you would use each.',
+      intention: "To evaluate the candidate's practical understanding and application of fundamental React Hooks.",
+      answer: "For `useState`, they should explain it's for adding state to functional components, giving an example like managing a counter or form input. For `useEffect`, they should explain it's for side effects (data fetching, subscriptions, manual DOM manipulations) and demonstrate its usage with dependencies array for controlling when it runs, giving examples like fetching data on component mount or updating the document title."
+    },
+    {
+      question: 'How do you handle asynchronous operations in JavaScript? Provide examples of Promises and async/await.',
+      intention: "To test the candidate's understanding of modern JavaScript asynchronous programming patterns, crucial for interacting with APIs.",
+      answer: 'The candidate should discuss Promises (pending, fulfilled, rejected states, `then`, `catch`, `finally`) and `async/await` as syntactic sugar over Promises. They should provide clear code examples for both, showing how to fetch data from an API or simulate an asynchronous task.'
+    },
+    {
+      question: 'Explain how you would ensure a web application is responsive across different devices and screen sizes.',
+      intention: "To gauge the candidate's knowledge of fundamental responsive web design principles using HTML and CSS.",
+      answer: 'The candidate should mention using meta viewport tag, CSS media queries, flexible units (percentages, `em`, `rem`, `vw`, `vh`), Flexbox and CSS Grid for layout, and fluid images/videos. They might also mention mobile-first design approach.'
+    },
+    {
+      question: 'How do you typically interact with RESTful APIs in your React applications? What tools or libraries do you use?',
+      intention: 'To understand their practical experience in integrating frontend with backend services and their choice of tools.',
+      answer: 'The candidate should explain using `fetch` API or `Axios` for making HTTP requests (GET, POST, PUT, DELETE). They should discuss handling responses, parsing JSON, and potentially error handling or displaying loading states in the UI.'
+    }
+  ],
+  behavioralQuestions: [
+    {
+      question: "Tell me about a challenging technical problem you've faced in one of your projects and how you overcame it.",
+      intention: "To assess the candidate's problem-solving skills, resilience, and learning approach when encountering difficulties.",
+      answer: 'The candidate should describe a specific technical challenge, the steps they took to diagnose it (research, debugging), the solutions they considered, and the final outcome. Emphasize learning from the experience.'
+    },
+    {
+      question: "You mentioned you are 'eager to learn' and 'adapt quickly.' Can you give an example of a new technology or concept you've recently learned and how you approached it?",
+      intention: 'To verify their self-description and understand their learning process, initiative, and ability to pick up new skills relevant to the fast-paced tech environment.',
+      answer: 'The candidate should provide a specific example (e.g., a new React hook, a CSS feature, a testing library). They should detail their learning process (tutorials, documentation, personal projects, asking questions) and how they applied it.'
+    },
+    {
+      question: 'The job involves collaborating with backend teams. Describe your experience working in a team environment, specifically on projects where you had to interact with other developers.',
+      intention: 'To evaluate their collaboration skills, communication abilities, and understanding of cross-functional team dynamics, which is a key responsibility.',
+      answer: 'Even if personal projects, they can talk about how they simulated collaboration, or experiences in academic group projects. They should highlight communication, version control usage (Git), and how they handled differing opinions or integrated work from others.'
+    },
+    {
+      question: 'What are your career aspirations in the next 3-5 years, especially considering your goal to become a full-stack developer and potentially freelance?',
+      intention: "To understand the candidate's long-term goals, assess their ambition, and see if their aspirations align with growth opportunities within the company.",
+      answer: 'The candidate should articulate their desire to deepen their frontend expertise while also expanding into backend development. They can mention specific technologies they want to master, the types of projects they want to build, and how this role fits into their larger career plan.'
+    }
+  ],
+  skillGaps: [
+    {
+      skill: 'React.js Depth (Advanced Concepts & Best Practices)',
+      severity: 'high'
+    },
+    {
+      skill: 'Performance Optimization for Web Applications',
+      severity: 'medium'
+    },
+    {
+      skill: 'Browser Debugging Tools (Advanced Usage)',
+      severity: 'medium'
+    },
+    {
+      skill: 'Experience with team collaboration and integrating with backend teams',
+      severity: 'low'
+    },
+    {
+      skill: 'Comprehensive API error handling and security considerations',
+      severity: 'medium'
+    }
+  ],
+  preparationPlan: [
+    {
+      day: 1,
+      focus: 'React Advanced Concepts & Hooks',
+      tasks: [Array]
+    },
+    {
+      day: 2,
+      focus: 'Advanced JavaScript & Asynchronous Programming',
+      tasks: [Array]
+    },
+    {
+      day: 3,
+      focus: 'Responsive Design & CSS Best Practices',
+      tasks: [Array]
+    },
+    {
+      day: 4,
+      focus: 'API Integration & Data Handling',
+      tasks: [Array]
+    },
+    {
+      day: 5,
+      focus: 'Performance Optimization & Debugging',
+      tasks: [Array]
+    },
+    {
+      day: 6,
+      focus: 'System Design (Frontend focus) & Git Workflow',
+      tasks: [Array]
+    },
+    {
+      day: 7,
+      focus: 'Mock Interview & Portfolio Review',
+      tasks: [Array]
+    }
+  ],
+  title: 'Frontend Developer'
+}
