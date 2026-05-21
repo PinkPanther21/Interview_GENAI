@@ -138,11 +138,14 @@ An intelligent interview preparation platform that uses AI to create personalize
 - `GET /test/:user_id` - Test MongoDB connection for user
 
 ## 🏗️ Project Structure
+
+```
 prep5/
 ├── Backend/          # Node.js + Express API
 ├── Frontend/         # React + Vite
 ├── agent_api.py      # Python AI Agent (Google ADK + FastAPI)
 └── README.md
+```
 
 ## 📝 License
 
